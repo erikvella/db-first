@@ -12,7 +12,8 @@ cylinder capacity | NOT NULL - VARCHAR(10)
 power | NOT NULL - CHAR(5)
 change | NOT NULL - VARCHAR(10)
 horses | NOT NULL - VARCHAR(10)
-registration date | NOT NULL - YEAR
+registration date | NOT NULL - YYYY-MM-DD
 kilometres | NOT NULL - INT
 co2 emissions | NULL - VARCHAR(10)
 iva | NOT NULL - CHAR(1) DEFAULT '1'
+price | NOT NULL - MEDIUMINT
